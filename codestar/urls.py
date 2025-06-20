@@ -22,3 +22,6 @@ urlpatterns = [
     path('blog/', blog_views.my_blog, name="blog_index"),
     path('admin/', admin.site.urls),
 ]
+
+# if settings.DEBUG:
+#     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
