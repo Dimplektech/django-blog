@@ -22,10 +22,9 @@ if os.path.isfile('env.py'):
 BASE_DIR = Path(__file__).resolve().parent.parent
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
-<<<<<<< HEAD
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-=======
->>>>>>> dab80e7959907c74c1c99ef770129302f400505b
+
 
 
 # Quick-start development settings - unsuitable for production
