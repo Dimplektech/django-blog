@@ -34,11 +34,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 SECRET_KEY = 'django-insecure-0!-i^i$-nc4i+&@1w_*%#fe)@g45wkkc^db7e4lwf^!i+y_(w-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-<<<<<<< HEAD
+
 DEBUG = False
-=======
-DEBUG = True
->>>>>>> dab80e7959907c74c1c99ef770129302f400505b
+
 
 ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1',]
 
@@ -58,10 +56,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-<<<<<<< HEAD
     'whitenoise.middleware.WhiteNoiseMiddleware',  # Add this line for WhiteNoise
-=======
->>>>>>> dab80e7959907c74c1c99ef770129302f400505b
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -137,19 +132,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-<<<<<<< HEAD
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-
-
-
-=======
-
-
-# Add this if not already present
-STATICFILES_DIRS = [
-    BASE_DIR / "static",
-]
->>>>>>> dab80e7959907c74c1c99ef770129302f400505b
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
