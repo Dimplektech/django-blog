@@ -3,7 +3,3 @@
 env.py
 blog/fixtures/
 /staticfiles/
-# Virtual Environment
-/.venv
-env.py
-blog/fixtures/
